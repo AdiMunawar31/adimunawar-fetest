@@ -1,16 +1,16 @@
 const Parallax = () => {
   return (
     <section
-      className='flex-col w-full h-[500px] bg-cover bg-fixed bg-center flex justify-center items-center'
+      className='w-full h-[500px] bg-cover bg-fixed bg-center flex flex-col justify-center items-center'
       style={{
         backgroundImage:
-          "url(https://www.dumetschool.com/images/fck/membuat-gradiasi-cnavas-html5-30-03-2015-3.PNG)",
+          "url(https://colibriwp.com/blog/wp-content/uploads/2022/02/15.jpg)",
       }}
     >
-      <h1 className='text-white text-5xl font-semibold mt-24 mb-10'>
+      <div className='text-gray-900 text-3xl sm:text-4xl font-semibold text-center mt-40 sm:mt-24 mb-6'>
         Stay Up-To-Date
-      </h1>
-      <span className='text-center font-bold mt-10 mb-28 text-white/90 w-6/12'>
+      </div>
+      <div className='text-center font-bold sm:mt-10 mb-40 sm:mb-28 text-gray-900 max-w-2xl mx-auto p-4'>
         "Empowering you with real-time insights, our app is designed to keep
         your contact information up-to-date. Our automated scans tirelessly work
         behind the scenes, ensuring that you're always equipped with the latest
@@ -19,7 +19,7 @@ const Parallax = () => {
         us, you'll never miss a beat, and you'll always be in control of the
         most current information. Welcome to a future of seamless,
         always-accurate connections."
-      </span>
+      </div>
     </section>
   );
 };
