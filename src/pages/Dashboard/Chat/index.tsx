@@ -1,10 +1,9 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import Sidebar from "../../../components/Dashboard/Sidebar";
 import { asyncReceiveContactDetail } from "../../../states/getDetailContact/action";
 import { Contact } from "../../../types/ContactTypes";
-import React from "react";
 
 const Chat = () => {
   const { contactId } = useParams();
