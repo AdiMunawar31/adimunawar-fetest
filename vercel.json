@@ -16,7 +16,12 @@
   "env": {
     "EXAMPLE_ENV_VAR": "example"
   },
-  "functions": { "api/**/*.{js,ts}" },
+  "functions": {
+    "api": {
+      "src": "api/**/*.@(js|ts)",
+      "includeFiles": ["api/**/*.@(js|ts)"]
+    }
+  },  
   "onPush": [
     {
       "action": ["created", "deleted", "closed", "synchronize"],
