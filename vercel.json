@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "public" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "public/$1"
+    }
+  ],
+  "env": {
+    "EXAMPLE_ENV_VAR": "example"
+  },
+  "functions": { "api/**/*.{js,ts}" },
+  "onPush": [
+    {
+      "action": ["created", "deleted", "closed", "synchronize"],
+      "branch": "main",
+      "target": [".*"],
+      "command": "yarn build",
+      "mute": false
+    }
+  ]
+}
