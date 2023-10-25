@@ -13,22 +13,10 @@
       "dest": "public/$1"
     }
   ],
-  "env": {
-    "EXAMPLE_ENV_VAR": "example"
-  },
   "functions": {
     "api": {
       "src": "api/**/*.@(js|ts)",
       "includeFiles": ["api/**/*.@(js|ts)"]
     }
-  },  
-  "onPush": [
-    {
-      "action": ["created", "deleted", "closed", "synchronize"],
-      "branch": "main",
-      "target": [".*"],
-      "command": "yarn build",
-      "mute": false
-    }
-  ]
+  }
 }
