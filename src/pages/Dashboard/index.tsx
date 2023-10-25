@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Sidebar from "../../components/Dashboard/Sidebar";
+import React from "react";
 
 const Dashboard = () => {
   return (

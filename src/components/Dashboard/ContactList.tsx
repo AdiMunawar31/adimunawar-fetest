@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { useDispatch } from "react-redux";

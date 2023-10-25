@@ -1,3 +1,4 @@
+import React from "react";
 import Footer from "../../components/Footer";
 import HeroSection from "../../components/Landing/HeroSection";
 import Parallax from "../../components/Landing/Parallax";
@@ -6,7 +7,7 @@ import Navbar from "../../components/Navbar";
 
 const Landing = () => {
   return (
-    <div className='bg-white dark:bg-gray-900'>
+    <div className='bg-white'>
       <Navbar />
       <HeroSection />
       <Parallax />

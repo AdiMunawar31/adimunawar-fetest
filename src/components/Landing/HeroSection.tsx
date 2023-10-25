@@ -1,3 +1,4 @@
+import React from "react";
 import FeatureIcons from "./FeatureIcons";
 import PartnerLogos from "./PartnerLogos";
 

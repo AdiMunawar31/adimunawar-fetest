@@ -10,13 +10,7 @@ import InputField from "../../../components/InputField";
 import { asyncEditContact } from "../../../states/editContact/action";
 import { asyncReceiveContactDetail } from "../../../states/getDetailContact/action";
 import Swal from "sweetalert2";
-
-interface FormValues {
-  firstName: string;
-  lastName: string;
-  age: number;
-  photo: string;
-}
+import { FormValues } from "@src/types/FormValuesTypes";
 
 const schema = Yup.object().shape({
   firstName: Yup.string().required("First Name is required"),
@@ -51,6 +45,7 @@ const EditContact: React.FC = () => {
   const onSubmit: SubmitHandler<FormValues> = (data) => {
     const trimmedData = {
       ...data,
+      age: data.age,
       firstName: data.firstName.trim(),
       lastName: data.lastName.trim(),
       photo: data.photo.trim(),

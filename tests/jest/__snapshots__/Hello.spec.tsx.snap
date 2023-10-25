@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hello component should render component properly 1`] = `
+<div>
+  Hello from 
+  lorem
+   and 
+  test
+  !
+</div>
+`;

@@ -11,7 +11,7 @@ function asyncPopulateContacts() {
       dispatch(receiveContactsActionCreator(contact));
     } catch (error: any) {
       Swal.fire({
-        title: "Errpr!",
+        title: "Error!",
         text: error.message,
         icon: "error",
         background: "#edfdff",

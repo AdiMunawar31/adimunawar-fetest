@@ -23,7 +23,7 @@ function asyncReceiveContactDetail(contactId: any) {
       dispatch(receiveContactDetailActionCreator(contactDetail));
     } catch (error: any) {
       Swal.fire({
-        title: "Errpr!",
+        title: "Error!",
         text: error.message,
         icon: "error",
         background: "#edfdff",

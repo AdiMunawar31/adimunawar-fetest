@@ -1,3 +1,6 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className='bg-white dark:bg-gray-900'>
@@ -8,7 +11,7 @@ const Footer = () => {
           </h1>
           <div className='mt-6 shrink-0 md:mx-3 md:mt-0 md:w-auto'>
             <a
-              href='#'
+              href='/subsribe-dicontact'
               className='inline-flex w-full items-center justify-center rounded-lg bg-blue-900 px-4 py-2 text-sm text-white duration-300 hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80'
             >
               <span className='mx-2'>Subscribe Now</span>
@@ -32,17 +35,20 @@ const Footer = () => {
 
         <hr className='my-6 border-gray-200 dark:border-gray-700 md:my-10' />
         <div className='flex flex-col items-center justify-between sm:flex-row'>
-          <a
-            href='#'
+          <Link
+            to='/'
             className='text-2xl font-bold text-gray-800 transition-colors duration-300 hover:text-gray-700 dark:text-white dark:hover:text-gray-300'
           >
             <div className='flex'>
               <img src='/contact.png' alt='logo' width={40} />
-              <span className='text-lg text-cyan-400 font-bold ml-2 mt-2'>
+              <span
+                className='text-lg text-cyan-400 font-bold ml-2 mt-2'
+                id='DiContact'
+              >
                 DiContact
               </span>
             </div>
-          </a>
+          </Link>
           <p className='mt-4 text-sm text-gray-500 dark:text-gray-300 sm:mt-0'>
             © Copyright 2023. All Rights Reserved.
           </p>
