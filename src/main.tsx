@@ -6,6 +6,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 import store from "./states/index";
+import React from "react";
 
 const root = createRoot(document.getElementById("root")!);
 

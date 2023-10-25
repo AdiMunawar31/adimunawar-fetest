@@ -14,7 +14,7 @@ function asyncAddContact(contact: ContactInput) {
       }
     } catch (error: any) {
       Swal.fire({
-        title: "Errpr!",
+        title: "Error!",
         text: error.message,
         icon: "error",
         background: "#edfdff",

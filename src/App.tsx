@@ -1,6 +1,8 @@
 import { lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 import Loading from "./components/Loading";
+import React from "react";
+import NotFound from "./pages/404";
 
 const Landing = lazy(() => import("./pages/Landing"));
 const About = lazy(() => import("./pages/About"));
@@ -19,6 +21,7 @@ function App() {
         <Route path='/chat/:contactId' element={<Chat />} />
         <Route path='/create-contact' element={<CreateContact />} />
         <Route path='/edit/:contactId' element={<EditContact />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </Suspense>
   );

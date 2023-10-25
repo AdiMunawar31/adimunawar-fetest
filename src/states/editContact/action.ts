@@ -14,7 +14,7 @@ function asyncEditContact(contact: ContactInput, contactId: string) {
       }
     } catch (error: any) {
       Swal.fire({
-        title: "Errpr!",
+        title: "Error!",
         text: error.message,
         icon: "error",
         background: "#edfdff",

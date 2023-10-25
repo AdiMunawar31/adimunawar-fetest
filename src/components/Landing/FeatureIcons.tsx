@@ -1,3 +1,5 @@
+import React from "react";
+
 const FeatureIcons = () => {
   return (
     <div className='grid grid-cols-3 space-x-4 md:space-x-6 md:flex md:justify-center lg:justify-start'>

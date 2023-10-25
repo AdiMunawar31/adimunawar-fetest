@@ -5,7 +5,6 @@ import { RiShutDownLine } from "react-icons/ri";
 import { asyncPopulateContacts } from "../../states/getContact/action";
 import ContactList from "./ContactList";
 import { SidebarProps } from "../../types/SidebarProps";
-import logoImage from "/contact.png";
 import { Contact } from "../../types/ContactTypes";
 import { ContactState } from "../../types/ContactState";
 
@@ -24,7 +23,7 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
           <div className='border-b border-gray-200 p-3 relative flex justify-between'>
             <button className='flex items-start select-none font-semibold focus:outline-none'>
               <Link to='/dashboard' className='flex'>
-                <img src={logoImage} alt='logo' width={40} />
+                <img src='/contact.png' alt='logo' width={40} />
                 <span className='text-lg text-cyan-400 font-bold ml-2 mt-2'>
                   DiContact
                 </span>

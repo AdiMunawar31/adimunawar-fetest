@@ -1,8 +1,11 @@
+import React from "react";
+
 const Loading = () => {
   return (
     <div
       className='inset-0 fixed flex w-full h-full items-center justify-center duration-300 transition-opacity'
       style={{ zIndex: 6000 }}
+      id='loading'
     >
       <div className='flex-col'>
         <svg viewBox='0 0 860.1 876.5'>

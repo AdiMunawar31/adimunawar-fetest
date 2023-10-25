@@ -1,20 +1,14 @@
-import React, { useEffect, useState } from "react";
-import { useForm, SubmitHandler } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
+import { FormValues } from "@src/types/FormValuesTypes";
+import React, { useEffect, useState } from "react";
+import { SubmitHandler, useForm } from "react-hook-form";
+import { MdContacts } from "react-icons/md";
+import { useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
 import * as Yup from "yup";
 import Sidebar from "../../../components/Dashboard/Sidebar";
 import InputField from "../../../components/InputField";
-import { MdContacts } from "react-icons/md";
-import { Link } from "react-router-dom";
-import { useDispatch } from "react-redux";
 import { asyncAddContact } from "../../../states/addContact/action";
-
-interface FormValues {
-  firstName: string;
-  lastName: string;
-  age: number;
-  photo: string;
-}
 
 const schema = Yup.object().shape({
   firstName: Yup.string().required("First Name is required"),
@@ -44,6 +38,7 @@ const CreateContact: React.FC = () => {
   const onSubmit: SubmitHandler<FormValues> = (data) => {
     const trimmedData = {
       ...data,
+      age: data.age,
       firstName: data.firstName.trim(),
       lastName: data.lastName.trim(),
       photo: data.photo.trim(),
