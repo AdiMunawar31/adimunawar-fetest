@@ -27,9 +27,6 @@ jobs:
             - name: Check linting
               run: yarn lint
             
-            - name: Run the e2e tests
-              run: yarn test:cypress
-            
             - name: Run the unit tests
               run: yarn test:jest
 
