@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders PartnerLogos correctly 1`] = `
+[
+  <div
+    className="text-gray-600 font-bold"
+  >
+    <span>
+      Our Partnership :
+    </span>
+  </div>,
+  <div
+    className="flex gap-6 lg:gap-12 justify-between grayscale lg:w-2/3"
+  >
+    <img
+      alt="airbnb"
+      className="h-8 sm:h-10 w-auto lg:h-12"
+      src="https://tailus.io/sources/blocks/tech-startup/preview/images/clients/airbnb.svg"
+    />
+    <img
+      alt="ge"
+      className="h-8 sm:h-10 w-auto lg:h-12"
+      src="https://tailus.io/sources/blocks/tech-startup/preview/images/clients/ge.svg"
+    />
+    <img
+      alt="coty"
+      className="h-8 sm:h-10 w-auto lg:h-12"
+      src="https://tailus.io/sources/blocks/tech-startup/preview/images/clients/coty.svg"
+    />
+    <img
+      alt="microsoft"
+      className="h-8 sm:h-10 w-auto lg:h-12"
+      src="https://tailus.io/sources/blocks/tech-startup/preview/images/clients/microsoft.svg"
+    />
+  </div>,
+]
+`;

@@ -10,7 +10,7 @@
     "test:jest": "jest --config=jest.config.js",
     "test:jest:watch": "jest --config=jest.config.js --watch",
     "test:jest:coverage": "jest --config=jest.config.js --coverage",
-    "test:cypress": "cypress run --spec \"tests/cypress/e2e/components/InputField.cy.ts\"",
+    "test:cypress": "cypress run",
     "test:cypress:open": "cypress open"
   },
   "dependencies": {

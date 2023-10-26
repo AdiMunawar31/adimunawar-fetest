@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders ContactList correctly 1`] = `
+<li
+  className="border-b cursor-pointer"
+>
+  <div
+    className="flex items-center justify-between w-full px-4 py-0.5 select-none hover:bg-gray-100 focus:outline-none relative"
+  >
+    <div
+      className="flex pr-20"
+      onClick={[Function]}
+    >
+      <img
+        alt="Photo profile"
+        className="w-12 mr-3 h-12 border-cyan-500 rounded-full border-2 p-0.5"
+        src="sample.jpg"
+      />
+      <div
+        className="block"
+      >
+        <h3
+          className="font-semibold capitalize -mb-1 truncate w-40"
+        >
+          John
+           
+          Doe
+        </h3>
+        <span
+          className="text-xs text-gray-500"
+        >
+          Age: 
+          30
+        </span>
+      </div>
+    </div>
+    <button
+      className="p-2 top-1/2 transform mt-8 -translate-y-1/2"
+      onClick={[Function]}
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 16 16"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+        />
+      </svg>
+    </button>
+  </div>
+</li>
+`;
