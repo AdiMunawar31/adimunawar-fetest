@@ -3,7 +3,7 @@ import { defineConfig } from "cypress";
 export default defineConfig({
   e2e: {
     projectId: "adimunawar-fetest",
-    baseUrl: "https://adimunawar-fetest.vercel.app/",
+    baseUrl: "http://localhost:5173",
     supportFile: false,
     fixturesFolder: false,
     downloadsFolder: "./tests/cypress/downloads",
