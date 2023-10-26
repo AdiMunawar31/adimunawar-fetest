@@ -2,9 +2,7 @@ name: Continuous integration
 
 on:
     push:
-        branches: [main, development]
-    pull_request:
-        branches: [main, development]
+        branches: [main]
 
 jobs:
     build:
@@ -12,7 +10,7 @@ jobs:
 
         strategy:
             matrix:
-                node-version: [14.15.x]
+                node-version: [18.x]
 
         steps:
             - uses: actions/checkout@v2
