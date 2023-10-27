@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard component renders the Dashboard component 1`] = `
+<div
+  className="bg-gradient-to-br from-cyan-300 via-cyan-100 to-blue-900 w-screen h-screen sm:p-5"
+>
+  <div
+    className="bg-white border border-gray-200 rounded flex h-full"
+  >
+    <div
+      className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 h-full overflow-y-auto scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2 scrolling-touch"
+    >
+      <div
+        className="border-b border-gray-200 p-3 relative flex justify-between"
+      >
+        <button
+          className="flex items-start select-none font-semibold focus:outline-none"
+        >
+          <a
+            className="flex"
+            href="/dashboard"
+            onClick={[Function]}
+          >
+            <img
+              alt="logo"
+              src="/contact.png"
+              width={40}
+            />
+            <span
+              className="text-lg text-cyan-400 font-bold ml-2 mt-2"
+            >
+              DiContact
+            </span>
+          </a>
+        </button>
+        <a
+          className="bg-red-200 p-2 flex items-center rounded-md"
+          href="/"
+          onClick={[Function]}
+          title="Shutdown"
+        >
+          <svg
+            className="text-red-500 text-xl font-bold"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6.26489 3.80698L7.41191 5.44558C5.34875 6.89247 4 9.28873 4 12C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 9.28873 18.6512 6.89247 16.5881 5.44558L17.7351 3.80698C20.3141 5.61559 22 8.61091 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 8.61091 3.68594 5.61559 6.26489 3.80698ZM11 12V2H13V12H11Z"
+            />
+          </svg>
+        </a>
+      </div>
+      <div
+        className="flex items-center justify-between text-sm border-b border-gray-200"
+      >
+        <div>
+          <button
+            className="py-3 w-20 uppercase font-semibold select-none h-full focus:outline-none border-b border-black"
+          >
+            Primary
+          </button>
+          <button
+            className="py-3 w-20 uppercase text-gray-400 select-none h-full focus:outline-none border-b border-transparent"
+          >
+            General
+          </button>
+        </div>
+        <button
+          className="p-3 font-semibold text-blue-500 select-none h-full focus:outline-none border-b border-transparent"
+        >
+          2
+           Contacts
+        </button>
+      </div>
+      <ul
+        className="py-1 contact-list"
+      >
+        <li
+          className="border-b cursor-pointer contact-item"
+        >
+          <div
+            className="flex items-center justify-between w-full px-4 py-0.5 select-none hover:bg-gray-100 focus:outline-none relative"
+          >
+            <div
+              className="flex pr-20"
+              onClick={[Function]}
+            >
+              <img
+                alt="Photo profile"
+                className="w-12 mr-3 h-12 border-cyan-500 rounded-full border-2 p-0.5"
+                src="janesmith.png"
+              />
+              <div
+                className="block"
+              >
+                <h3
+                  className="font-semibold capitalize -mb-1 truncate w-40"
+                >
+                   
+                  Smith
+                </h3>
+                <span
+                  className="text-xs text-gray-500"
+                >
+                  Age: 
+                </span>
+              </div>
+            </div>
+            <button
+              className="p-2 top-1/2 transform mt-8 -translate-y-1/2"
+              onClick={[Function]}
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                />
+              </svg>
+            </button>
+          </div>
+        </li>
+        <li
+          className="border-b cursor-pointer contact-item"
+        >
+          <div
+            className="flex items-center justify-between w-full px-4 py-0.5 select-none hover:bg-gray-100 focus:outline-none relative"
+          >
+            <div
+              className="flex pr-20"
+              onClick={[Function]}
+            >
+              <img
+                alt="Photo profile"
+                className="w-12 mr-3 h-12 border-cyan-500 rounded-full border-2 p-0.5"
+                src="john.png"
+              />
+              <div
+                className="block"
+              >
+                <h3
+                  className="font-semibold capitalize -mb-1 truncate w-40"
+                >
+                  John
+                   
+                  Doe
+                </h3>
+                <span
+                  className="text-xs text-gray-500"
+                >
+                  Age: 
+                </span>
+              </div>
+            </div>
+            <button
+              className="p-2 top-1/2 transform mt-8 -translate-y-1/2"
+              onClick={[Function]}
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+                />
+              </svg>
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      className="hidden sm:w-1/2 md:w-2/3 lg:w-3/4 border-l border-gray-200 sm:flex items-center justify-center text-center overflow-y-auto scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2 scrolling-touch"
+    >
+      <div
+        className="space-y-5"
+      >
+        <div
+          className="border border-black rounded-full inline-flex p-5 items-center justify-center"
+        >
+          <svg
+            className="transform translate-y-1"
+            height={52}
+            viewBox="0 0 48 48"
+            width={52}
+          >
+            <path
+              d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l13.2 13c.5.4 1.1.6 1.7.3l16.6-8c.7-.3 1.6-.1 2 .5.4.7.2 1.6-.5 2l-15.6 9.9c-.5.3-.8 1-.7 1.6l4.6 19c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.5-.5.5-1.1.2-1.6z"
+            />
+          </svg>
+        </div>
+        <div
+          className="space-y-0.5"
+        >
+          <h1
+            className="font-semibold text-xl"
+          >
+            Your Messages
+          </h1>
+          <p
+            className="text-gray-600 min-w-46"
+          >
+            Send private photos and messages to a friend or group
+          </p>
+        </div>
+        <button
+          className="bg-blue-500 py-1 px-3 rounded text-white select-none focus:outline-none"
+        >
+          <a
+            href="/create-contact"
+            onClick={[Function]}
+          >
+            Add Contact
+          </a>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
