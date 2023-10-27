@@ -19,6 +19,7 @@
       "@types/*": ["src/types/*"],
       "@states/*": ["src/states/*"],
       "@pages/*": ["src/pages/*"],
+      "@global/*": ["src/global/*"],
     },
     "types": ["jest", "node"]
   },
