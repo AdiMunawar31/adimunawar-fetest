@@ -58,7 +58,7 @@ const ContactList: React.FC<Contact> = ({
   };
 
   return (
-    <li className='border-b cursor-pointer' key={`${id}-contact`}>
+    <li className='border-b cursor-pointer contact-item' key={`${id}-contact`}>
       <div className='flex items-center justify-between w-full px-4 py-0.5 select-none hover:bg-gray-100 focus:outline-none relative'>
         <div className='flex pr-20' onClick={handleChat}>
           <img
