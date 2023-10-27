@@ -83,10 +83,10 @@ exports[`renders Sidebar correctly 1`] = `
         </button>
       </div>
       <ul
-        className="py-1"
+        className="py-1 contact-list"
       >
         <li
-          className="border-b cursor-pointer"
+          className="border-b cursor-pointer contact-item"
         >
           <div
             className="flex items-center justify-between w-full px-4 py-0.5 select-none hover:bg-gray-100 focus:outline-none relative"
@@ -142,7 +142,7 @@ exports[`renders Sidebar correctly 1`] = `
           </div>
         </li>
         <li
-          className="border-b cursor-pointer"
+          className="border-b cursor-pointer contact-item"
         >
           <div
             className="flex items-center justify-between w-full px-4 py-0.5 select-none hover:bg-gray-100 focus:outline-none relative"

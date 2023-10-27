@@ -52,7 +52,7 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
             </button>
           </div>
 
-          <ul className='py-1'>
+          <ul className='py-1 contact-list'>
             {contacts
               .slice()
               .reverse()

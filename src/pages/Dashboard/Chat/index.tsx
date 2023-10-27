@@ -259,6 +259,7 @@ const Chat = () => {
                 </svg>
               </button>
               <button
+                aria-label='Send'
                 type='button'
                 className='inline-flex items-center justify-center rounded-lg px-4 py-3 transition duration-500 ease-in-out text-white bg-blue-900 hover:bg-blue-700 focus:outline-none'
               >
